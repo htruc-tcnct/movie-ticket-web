@@ -44,11 +44,6 @@ const AdminDashboard = () => {
                         </Button>
 
                         <Button className="h-20 bg-red-600 hover:bg-red-700 flex flex-col items-center justify-center">
-                            <span className="text-xl mb-1">📊</span>
-                            <span className="text-sm">View Reports</span>
-                        </Button>
-
-                        <Button className="h-20 bg-red-600 hover:bg-red-700 flex flex-col items-center justify-center">
                             <span className="text-xl mb-1">⚙️</span>
                             <span className="text-sm">System Settings</span>
                         </Button>
