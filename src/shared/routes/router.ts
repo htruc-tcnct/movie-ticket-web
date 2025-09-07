@@ -3,9 +3,9 @@ import { createRouter } from '@tanstack/react-router'
 import { rootRoute } from '@/shared/routes/__root'
 
 //features
-import { adminRoute } from '@/features/admin/routes'
+import { adminRoute } from '@/features/admin/dashboard/routes'
 import { loginRoute, registerRoute } from '@/features/auth/routes'
-import { employeeRoute } from '@/features/employee/routes'
+import { employeeRoute } from '@/features/employee/dashboard/routes'
 import { homeRoute } from '@/features/home/routes'
 
 const routeTree = rootRoute.addChildren([
